@@ -1,0 +1,7 @@
+node_modules/
+logs/
+data/estado.local.json
+*.tmp
+.env
+.env.*
+.DS_Store

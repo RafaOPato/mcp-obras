@@ -1,0 +1,27 @@
+{
+  "_aviso": "Dados 100% fictícios, criados só para demonstração. Valores, nomes e contatos são inventados.",
+  "obras": [
+    { "id": "obra-aurora", "nome": "Residencial Aurora", "cidade": "Cidade Exemplo", "fase": "estrutura", "avanco_percentual": 42, "orcamento": 1000000 },
+    { "id": "obra-horizonte", "nome": "Edifício Horizonte", "cidade": "Cidade Exemplo", "fase": "fundação", "avanco_percentual": 15, "orcamento": 2000000 }
+  ],
+  "fornecedores": [
+    { "id": "forn-alfa", "nome": "Fornecedor Alfa Ltda", "categorias": ["cimento", "argamassa", "areia"], "telefone": "+55 11 90000-0000", "email": "contato@exemplo.com" },
+    { "id": "forn-beta", "nome": "Fornecedor Beta Ltda", "categorias": ["aço", "vergalhão", "tela soldada"], "telefone": "+55 11 90000-0000", "email": "contato@exemplo.com" },
+    { "id": "forn-gama", "nome": "Fornecedor Gama ME", "categorias": ["elétrica", "cabos", "eletroduto"], "telefone": "+55 11 90000-0000", "email": "contato@exemplo.com" },
+    { "id": "forn-delta", "nome": "Fornecedor Delta Ltda", "categorias": ["hidráulica", "tubos", "conexões"], "telefone": "+55 11 90000-0000", "email": "contato@exemplo.com" },
+    { "id": "forn-epsilon", "nome": "Fornecedor Épsilon ME", "categorias": ["aço", "ferragens", "pregos"], "telefone": "+55 11 90000-0000", "email": "contato@exemplo.com" }
+  ],
+  "pedidos": [
+    { "id": "ped-001", "obra": "obra-aurora", "item": "Cimento CP-II 50 kg", "quantidade": 200, "unidade": "saco", "fornecedor_id": "forn-alfa", "valor_total": 5000, "status": "aprovado", "criado_por": "compras", "aprovado_por": "financeiro" },
+    { "id": "ped-002", "obra": "obra-aurora", "item": "Vergalhão 10 mm", "quantidade": 100, "unidade": "barra", "fornecedor_id": "forn-beta", "valor_total": 8000, "status": "aguardando_aprovacao", "criado_por": "compras" },
+    { "id": "ped-003", "obra": "obra-horizonte", "item": "Tubo PVC 100 mm", "quantidade": 50, "unidade": "barra", "fornecedor_id": "forn-delta", "valor_total": 3000, "status": "aprovado", "criado_por": "compras", "aprovado_por": "financeiro" },
+    { "id": "ped-004", "obra": "obra-horizonte", "item": "Cabo flexível 2,5 mm", "quantidade": 10, "unidade": "rolo", "fornecedor_id": "forn-gama", "valor_total": 2000, "status": "aguardando_aprovacao", "criado_por": "compras" }
+  ],
+  "cotacoes": [
+    { "pedido_id": "ped-001", "fornecedor_id": "forn-alfa", "valor_total": 5000, "prazo_dias": 3 },
+    { "pedido_id": "ped-002", "fornecedor_id": "forn-beta", "valor_total": 8000, "prazo_dias": 5 },
+    { "pedido_id": "ped-002", "fornecedor_id": "forn-epsilon", "valor_total": 8400, "prazo_dias": 2 },
+    { "pedido_id": "ped-003", "fornecedor_id": "forn-delta", "valor_total": 3000, "prazo_dias": 4 },
+    { "pedido_id": "ped-004", "fornecedor_id": "forn-gama", "valor_total": 2000, "prazo_dias": 6 }
+  ]
+}

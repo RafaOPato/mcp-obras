@@ -1,0 +1,21 @@
+{
+  "name": "mcp-obras",
+  "version": "1.0.0",
+  "description": "Servidor MCP de exemplo (stdio) com permissões por agente aplicadas em código, aprovação por papel (gestor) para escrita e auditoria em JSONL.",
+  "type": "module",
+  "private": true,
+  "license": "MIT",
+  "author": "Rafael M. da Silva Santos",
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test",
+    "demo": "node scripts/demo.js"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "1.32.2",
+    "zod": "4.6.7"
+  }
+}

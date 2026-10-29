@@ -1,0 +1,26 @@
+{
+  "compras": {
+    "papel": "operador",
+    "escrita": true,
+    "obras": ["obra-aurora", "obra-horizonte"],
+    "ferramentas": ["listar_obras", "resumo_obra", "listar_pedidos", "buscar_fornecedor", "criar_pedido"]
+  },
+  "financeiro": {
+    "papel": "gestor",
+    "escrita": true,
+    "obras": ["obra-aurora", "obra-horizonte"],
+    "ferramentas": ["listar_obras", "resumo_obra", "listar_pedidos", "aprovar_pedido"]
+  },
+  "campo": {
+    "papel": "operador",
+    "escrita": true,
+    "obras": ["obra-aurora"],
+    "ferramentas": ["listar_obras", "resumo_obra", "listar_pedidos", "buscar_fornecedor", "criar_pedido"]
+  },
+  "leitura": {
+    "papel": "leitor",
+    "escrita": false,
+    "obras": ["obra-aurora", "obra-horizonte"],
+    "ferramentas": ["listar_obras", "resumo_obra", "listar_pedidos", "buscar_fornecedor"]
+  }
+}
